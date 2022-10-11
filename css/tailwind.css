@@ -1,4 +1,12 @@
 
 @tailwind base;
 @tailwind components;
+.btn{
+    @apply text-white py-2 shadow-lg uppercase 
+    tracking-wider  text-sm px-5 rounded-lg 
+    hover:bg-indigo-400 
+    hover:-translate-x-0.5 transform transition
+    focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-600
+    bg-indigo-500 sm:text-base
+}
 @tailwind utilities;

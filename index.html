@@ -6,28 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/tailwind.css"/>
 </head>
-<body class="bg-gray-400 ">
-    <div class="grid lg:grid-cols-2 bg-gray-100">
-    <div class="py-8 px-12 max-w-md mx-auto sm:max-w-xl lg:px-12 lg:py-24">
-        <img  class="h-10 " src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss-from-zero-to-production/98b52c61259c732226c2ec0207ba2246e67a34e6/02-the-utility-first-workflow/img/logo.svg"
-        alt="warkcation"/>
-        <img src="https://github.com/tailwindlabs/tailwindcss-from-zero-to-production/blob/main/02-the-utility-first-workflow/img/beach-work.jpg?raw=true"
-        alt="beach pic" class="mt-4 rounded-lg shadow-md sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden"
-        />
-        <h1 class="mt-6 text-xl font-bold text-gray-900 sm:mt-8 sm:text-4xl sm:max-w-lg lg:max-w-full">You can work from any where.
-            <br class=" lg:inline">
-             <span class="text-indigo-500"> Take advantage of it!</span></h1>
-             <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">Workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some
-                nice weather even when you're not on vacation.</p>
-                <div class="mt-6">
-                    <a class="text-white py-2 shadow-lg uppercase tracking-wider text-semibold text-sm px-5 rounded-lg bg-indigo-500 sm:text-base">book your space</a>
-                </div>
-    </div>
-   <div  class="hidden lg:block relative">
-    <img src="https://github.com/tailwindlabs/tailwindcss-from-zero-to-production/blob/main/02-the-utility-first-workflow/img/beach-work.jpg?raw=true"
-    alt="beach pic"  class="absolute w-full h-full object-cover object-center "
-    />
-   </div>
-</div>
+<body class="bg-gray-200 ">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
